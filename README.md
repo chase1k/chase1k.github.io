@@ -1,6 +1,7 @@
 [Hux Blog](https://huangxuan.me)
 ================================
 
+>Make a post: rake post title="Hello 2015" subtitle="Hello World, Hello Blog"
 > I never expect this becomes popular.
 
 ![](http://huangxuan.me/img/blog-desktop.jpg)
