@@ -1,5 +1,5 @@
 # Site settings
-title: Hello!
+title: Chase's Website
 SEOTitle: My Blog
 header-img: img/home-bg.jpg
 email: chasekillorin@gmail.com
@@ -75,7 +75,8 @@ kramdown:
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "Security <br> Student @ RIT"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/avatar-chase-home.jpg
+# sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
