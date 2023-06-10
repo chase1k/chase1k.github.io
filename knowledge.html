@@ -1,0 +1,13 @@
+---
+layout: page
+title: "Knowledge"
+description: "「Even More Description」"
+header-img: "img/bg-me-2022.jpg"
+header-mask: 0.3
+---
+
+<!-- English Version -->
+<div class="en post-container">
+    {% capture about_en %}{% include about/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+</div>
