@@ -74,8 +74,8 @@ kramdown:
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "Security <br> Student @ RIT"
-sidebar-avatar: img/avatar-chase-home.jpg
+sidebar-about-description: "Hey, I'm Chase. I am a Cybersecurity Student @ RIT (Rochester Institute of Technology)"
+sidebar-avatar: ../img/avatar-chase-home.jpg
 # sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
@@ -92,6 +92,17 @@ page-mathjax: false
 # Friends
 friends:
   [
-   # { title: "乱序（Midare）", href: "http://mida.re/" },
-     { title: "Alex Noble", href: "http://google.com/" },
+   # { title: "", href: "" },
+     { title: "Alex Noble", href: "https://www.linkedin.com/in/alexnoble079/" },
+     { title: "Kasey Kiggins", href: "https://www.linkedin.com/in/kasey-kiggins/"},
+     { title: "Sohail Shaik", href: "https://www.linkedin.com/in/sohail-shaik-224517250/" },
+     { title: "Jose Gonzalez Paniagua", href: "https://www.linkedin.com/in/jose-gonzalez-paniagua/" },
+     { title: "Deven Dighe", href: "https://www.linkedin.com/in/devendighe/" },
+     { title: "Ronan Gerber", href: "https://www.linkedin.com/in/ronangerber/" },
+     { title: "Miles Talia", href: "https://www.linkedin.com/in/miles-tallia-7a654b158/" },
+     { title: "Garrett Thompson", href: "https://www.linkedin.com/in/thompson-garrett/" },
+     { title: "Liam Lavery", href: "https://www.linkedin.com/in/liamjlavery27/" },
+     { title: "Adam Braccia", href: "https://www.linkedin.com/in/adam-braccia-350407251/" },
+     { title: "..."},
+
   ]
