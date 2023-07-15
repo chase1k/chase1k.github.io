@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Knowledge"
 description: "「This is everything I know (about cybersecurity)」"
 header-img: "img/IMG_1453.png"
@@ -8,6 +8,7 @@ header-mask: 0.3
 
 <!-- English Version -->
 <div class="en post-container">
-    {% capture about_en %}{% include about/en.md %}{% endcapture %}
-    {{ about_en | markdownify }}
+<!-- <div class="post-container" -->
+    {% capture knowledge %}{% include knowledge/en.md %}{% endcapture %}
+    {{ knowledge | markdownify }}
 </div>
