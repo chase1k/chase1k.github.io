@@ -21,6 +21,7 @@ This is a work in progress!
 ## Binary Exploitation
 
 [Pwndbg](https://github.com/pwndbg/pwndbg)
+ 
 [PEDA](https://github.com/longld/peda)
 
 ### Binex Tools
@@ -29,15 +30,21 @@ This is a work in progress!
 
 ## Cryptography
 
+### Crypto Tools
+
+[Cyber Chef](https://gchq.github.io/CyberChef/)
+
 ## Forensics
 
 ### Network Capture Forensics
+
+[Wireshark](https://www.wireshark.org/)
 
 [Scapy](https://scapy.readthedocs.io/en/latest/introduction.html)
 
 ## Reverse Enginering
 
-### Mobile Reversing Tool
+### Mobile Reversing Tools
 
 [Android Studio](https://developer.android.com/studio)
 
@@ -47,7 +54,7 @@ This is a work in progress!
 
 ## Web Exploitation
 
-### Web Exploitation Tools
+### WebEx Tools
 
 [Flask-unsign](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/flask)
 
