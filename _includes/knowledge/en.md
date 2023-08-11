@@ -54,6 +54,10 @@ This is a work in progress!
 
 ## Web Exploitation
 
+### WebEx References
+
+[Payloads All The Things](https://swisskyrepo.github.io/PayloadsAllTheThings/)
+
 ### WebEx Tools
 
 [Flask-unsign](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/flask)
