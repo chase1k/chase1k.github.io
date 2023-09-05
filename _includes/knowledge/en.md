@@ -52,6 +52,8 @@ This is a work in progress!
 
 [Frida](https://frida.re/docs/android/)
 
+[Android Backup Toolkit](https://sourceforge.net/projects/android-backup-processor/)
+
 ## Web Exploitation
 
 ### WebEx References
