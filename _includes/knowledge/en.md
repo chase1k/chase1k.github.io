@@ -44,6 +44,8 @@ This is a work in progress!
 
 ## Reverse Enginering
 
+[GoReSym](https://github.com/mandiant/GoReSym)
+
 ### Mobile Reversing Tools
 
 [Android Studio](https://developer.android.com/studio)
