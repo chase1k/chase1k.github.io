@@ -18,6 +18,11 @@ This is a work in progress!
 
 [Reverse shell generator](https://www.revshells.com/)
 
+
+## Priviledge Escalation
+
+[DirtyPipe](https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits)
+
 ## Binary Exploitation
 
 [Pwndbg](https://github.com/pwndbg/pwndbg)
