@@ -14,6 +14,12 @@ This is a work in progress!
 
 [CTF 101](https://ctf101.org/)
 
+[Pwncollege](https://pwn.college/)
+
+[Pwnable.kr](https://pwnable.kr/)
+
+[Pwnable.tw](https://pwnable.tw/)
+
 ### General tools
 
 [Reverse shell generator](https://www.revshells.com/)
