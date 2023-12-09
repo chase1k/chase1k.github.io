@@ -91,6 +91,8 @@ This is a work in progress!
 
 [Deepce](https://github.com/stealthcopter/deepce)
 
-## Topic to look into
+## Topics to look into
+
+Free courses in [vulnearbility research](https://p.ost2.fyi/courses)
 
 Format string vulnerability to execute arbitrary assembly, C or C++
