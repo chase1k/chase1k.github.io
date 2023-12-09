@@ -47,6 +47,10 @@ This is a work in progress!
 
 ## Forensics
 
+[Exiftool](https://github.com/exiftool/exiftool)
+
+[Binwalk](https://github.com/ReFirmLabs/binwalk)
+
 ### Network Capture Forensics
 
 [Wireshark](https://www.wireshark.org/)
@@ -78,6 +82,10 @@ This is a work in progress!
 [Flask-unsign](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/flask)
 
 ## Docker
+
+### Docker Forensics
+
+[Dive](https://github.com/wagoodman/dive)
 
 ### Docker Escapes
 
