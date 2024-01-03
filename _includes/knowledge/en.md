@@ -39,6 +39,10 @@ This is a work in progress!
 
 [Objdump](https://man7.org/linux/man-pages/man1/objdump.1.html)
 
+### Binex References
+
+[Ir0nstone Blog](https://ir0nstone.gitbook.io/notes/)
+
 ## Cryptography
 
 ### Crypto Tools
