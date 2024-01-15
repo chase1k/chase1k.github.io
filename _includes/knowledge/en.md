@@ -14,7 +14,7 @@ This is a work in progress!
 
 [CTF 101](https://ctf101.org/)
 
-[Pwncollege](https://pwn.college/)
+[Pwn.college](https://pwn.college/)
 
 [Pwnable.kr](https://pwnable.kr/)
 
@@ -28,6 +28,8 @@ This is a work in progress!
 ## Priviledge Escalation
 
 [DirtyPipe](https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits)
+
+[GTFO Bins](https://gtfobins.github.io/)
 
 ## Binary Exploitation
 
@@ -71,7 +73,7 @@ This is a work in progress!
 
 [Jadx](https://github.com/skylot/jadx)
 
-[Frida](https://frida.re/docs/android/)
+[Frida](https://frida.re/docs/)
 
 [Android Backup Toolkit](https://sourceforge.net/projects/android-backup-processor/)
 
