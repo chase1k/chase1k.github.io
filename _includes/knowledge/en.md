@@ -77,6 +77,10 @@ This is a work in progress!
 
 [Android Backup Toolkit](https://sourceforge.net/projects/android-backup-processor/)
 
+### Reversing References 
+
+[Frida Scripting Blog](https://cmrodriguez.me/blog/frida-scripting-guide/)
+
 ## Web Exploitation
 
 ### WebEx References
