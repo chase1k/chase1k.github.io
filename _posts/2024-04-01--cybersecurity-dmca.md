@@ -8,7 +8,7 @@ header-img: "img/post-bg-2015.jpg"
 tags: [Policy and Law]
 ---
 
-![DMCA](../image0.png)
+![DMCA](image0.png)
 
 # Introduction
 
