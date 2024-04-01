@@ -20,16 +20,18 @@ This is a work in progress!
 
 [Pwnable.tw](https://pwnable.tw/)
 
+[Exploit Education](https://exploit.education/)
+
 ### General tools
 
 [Reverse shell generator](https://www.revshells.com/)
-
 
 ## Priviledge Escalation
 
 [DirtyPipe](https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits)
 
 [GTFO Bins](https://gtfobins.github.io/)
+Suid bit shenanigans
 
 ## Binary Exploitation
 
@@ -44,6 +46,9 @@ This is a work in progress!
 ### Binex References
 
 [Ir0nstone Blog](https://ir0nstone.gitbook.io/notes/)
+
+[Nightmare](https://guyinatuxedo.github.io/02-intro_tooling/pwntools/index.html)
+Pwntools basics
 
 ## Cryptography
 
@@ -105,4 +110,6 @@ This is a work in progress!
 
 Free courses in [vulnearbility research](https://p.ost2.fyi/courses)
 
-Format string vulnerability to execute arbitrary assembly, C or C++
+[Format String](https://exploit.education/phoenix/format-zero/)
+
+[Heap Exploitation](https://exploit.education/phoenix/heap-zero/)
