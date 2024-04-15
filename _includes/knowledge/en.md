@@ -55,7 +55,14 @@ Better for heap
 Pwntools basics
 
 ### Heap Exploitation
+
+[Malloc Internals](https://sourceware.org/glibc/wiki/MallocInternals)
+Arenas, chunks, bins, heap explanations 
+
 [How2Heap](https://github.com/shellphish/how2heap) Shellphish how to heap techniques
+
+[Tcache Poisoning - Tripoloski Blog](https://tripoloski1337.github.io/research/2019/09/09/tcache_poisoning.html)
+CTF challenge writeup
 
 ## Cryptography
 
