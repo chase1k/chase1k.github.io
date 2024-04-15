@@ -36,6 +36,10 @@ Suid bit shenanigans
 ## Binary Exploitation
 
 [Pwndbg](https://github.com/pwndbg/pwndbg)
+Good all around debugger
+
+[GEF](https://github.com/hugsy/gef)
+Better for heap
  
 [PEDA](https://github.com/longld/peda)
 
@@ -49,6 +53,9 @@ Suid bit shenanigans
 
 [Nightmare](https://guyinatuxedo.github.io/02-intro_tooling/pwntools/index.html)
 Pwntools basics
+
+### Heap Exploitation
+[How2Heap](https://github.com/shellphish/how2heap) Shellphish how to heap techniques
 
 ## Cryptography
 
@@ -71,6 +78,7 @@ Pwntools basics
 ## Reverse Enginering
 
 [GoReSym](https://github.com/mandiant/GoReSym)
+Golang Symbol Recovery
 
 ### Mobile Reversing Tools
 
