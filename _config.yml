@@ -88,21 +88,3 @@ service-worker: true
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
-
-# Friends
-friends:
-  [
-   # { title: "", href: "" },
-     { title: "Alex Noble", href: "https://www.linkedin.com/in/alexnoble079/" },
-     { title: "Kasey Kiggins", href: "https://www.linkedin.com/in/kasey-kiggins/"},
-     { title: "Sohail Shaik", href: "https://www.linkedin.com/in/sohail-shaik-224517250/" },
-     { title: "Jose Gonzalez Paniagua", href: "https://www.linkedin.com/in/jose-gonzalez-paniagua/" },
-     { title: "Deven Dighe", href: "https://www.linkedin.com/in/devendighe/" },
-     { title: "Ronan Gerber", href: "https://www.linkedin.com/in/ronangerber/" },
-     { title: "Miles Talia", href: "https://www.linkedin.com/in/miles-tallia-7a654b158/" },
-     { title: "Garrett Thompson", href: "https://www.linkedin.com/in/thompson-garrett/" },
-     { title: "Liam Lavery", href: "https://www.linkedin.com/in/liamjlavery27/" },
-     { title: "Adam Braccia", href: "https://www.linkedin.com/in/adam-braccia-350407251/" },
-     { title: "..."},
-
-  ]

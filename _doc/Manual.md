@@ -10,7 +10,6 @@ Hux Blog User Manual
 	* [SideBar](#sidebar)
 	* [Mini About Me](#mini-about-me)
 	* [Featured Tags](#featured-tags)
-	* [Friends](#friends)
 	* [Keynote Layout](#keynote-layout)
 * Misc
 	* [Comment](#comment)
