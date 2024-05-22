@@ -14,8 +14,9 @@ future: true
 # SNS settings
 RSS: false
 github_username: chase1k
-#twitter_username: huxpro
-#facebook_username:  huxpro
+email_username: chasekillorin@gmail.com
+# twitter_username: huxpro
+# facebook_username:  huxpro
 linkedin_username:  chase-killorin
 
 # Build settings

@@ -1,12 +1,12 @@
-# Intro
-
-Basically I have some knowledge on cybersecurity and these are some resources.
-
-This is a work in progress!
+### Here are some cybersecurity resources I've collected over the years:
 
 # Links
 
 ## General
+
+[Crypto Cat](https://github.com/Crypto-Cat/CTF?tab=readme-ov-file) - More resources
+
+[OST2.fyi](https://p.ost2.fyi/courses) - Free open source trainings
 
 [HackTricks](https://book.hacktricks.xyz/welcome/readme)
 
@@ -14,7 +14,7 @@ This is a work in progress!
 
 [CTF 101](https://ctf101.org/)
 
-[Pwn.college](https://pwn.college/)
+[Pwn.college](https://pwn.college/) - Pwn practice
 
 [Pwnable.kr](https://pwnable.kr/)
 
@@ -24,45 +24,39 @@ This is a work in progress!
 
 ### General tools
 
-[Reverse shell generator](https://www.revshells.com/)
+[Reverse shell generator](https://www.revshells.com/) - All types of reverse shells
 
 ## Priviledge Escalation
 
 [DirtyPipe](https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits)
 
-[GTFO Bins](https://gtfobins.github.io/)
-Suid bit shenanigans
+[GTFO Bins](https://gtfobins.github.io/) - Suid bit priveledge escalation
 
 ## Binary Exploitation
 
-[Pwndbg](https://github.com/pwndbg/pwndbg)
-Good all around debugger
+[Pwndbg](https://github.com/pwndbg/pwndbg) - Better than GDB
 
-[GEF](https://github.com/hugsy/gef)
-Better for heap
+[GEF](https://github.com/hugsy/gef) - Better for heap shenanigans
  
 [PEDA](https://github.com/longld/peda)
 
 ### Binex Tools
 
-[Objdump](https://man7.org/linux/man-pages/man1/objdump.1.html)
+[Objdump](https://man7.org/linux/man-pages/man1/objdump.1.html) - $ objdump -D binary
 
 ### Binex References
 
 [Ir0nstone Blog](https://ir0nstone.gitbook.io/notes/)
 
-[Nightmare](https://guyinatuxedo.github.io/02-intro_tooling/pwntools/index.html)
-Pwntools basics
+[Nightmare](https://guyinatuxedo.github.io/02-intro_tooling/pwntools/index.html) - Pwntools basics
 
 ### Heap Exploitation
 
-[Malloc Internals](https://sourceware.org/glibc/wiki/MallocInternals)
-Arenas, chunks, bins, heap explanations 
+[Malloc Internals](https://sourceware.org/glibc/wiki/MallocInternals) - Arenas, chunks, bins, heap explanations 
 
-[How2Heap](https://github.com/shellphish/how2heap) Shellphish how to heap techniques
+[How2Heap](https://github.com/shellphish/how2heap) - Shellphish how to heap techniques
 
-[Tcache Poisoning - Tripoloski Blog](https://tripoloski1337.github.io/research/2019/09/09/tcache_poisoning.html)
-CTF challenge writeup
+[Tcache Poisoning - Tripoloski Blog](https://tripoloski1337.github.io/research/2019/09/09/tcache_poisoning.html) - CTF challenge writeup
 
 ## Cryptography
 
@@ -84,16 +78,17 @@ CTF challenge writeup
 
 ## Reverse Enginering
 
-[GoReSym](https://github.com/mandiant/GoReSym)
-Golang Symbol Recovery
+[GoReSym](https://github.com/mandiant/GoReSym) - Golang symbol recovery
 
 ### Mobile Reversing Tools
 
 [Android Studio](https://developer.android.com/studio)
 
-[Jadx](https://github.com/skylot/jadx)
+[GlitchChat](https://www.corellium.com/glitchchat-ios) - Vulnerable iOS app
 
-[Frida](https://frida.re/docs/)
+[Jadx](https://github.com/skylot/jadx) - Android APK reversing
+
+[Frida](https://frida.re/docs/) - Dynamic instrumentation 
 
 [Android Backup Toolkit](https://sourceforge.net/projects/android-backup-processor/)
 
@@ -111,15 +106,13 @@ Golang Symbol Recovery
 
 ### Docker Forensics
 
-[Dive](https://github.com/wagoodman/dive)
+[Dive](https://github.com/wagoodman/dive) - Docker layer forensics
 
 ### Docker Escapes
 
 [Deepce](https://github.com/stealthcopter/deepce)
 
 ## Topics to look into
-
-Free courses in [vulnearbility research](https://p.ost2.fyi/courses)
 
 [Format String](https://exploit.education/phoenix/format-zero/)
 
