@@ -3,10 +3,11 @@
  * Copyright 2023 Hux <huxpro@gmail.com>
  */
 
-hr {
-  filter: invert(100%);
+.fa-stack:hover{
   border-color:#0085a1;
-  }
+  filter: invert(100%);
+}
+
 @media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
@@ -27,7 +28,7 @@ hr {
   padding-bottom: 1em;
 }
 .sidebar-container h5 a {
-  color: #a3a3a3 !important;
+  color: #ebebeb !important;
   text-decoration: none;
 }
 .sidebar-container a {
@@ -36,6 +37,7 @@ hr {
 .sidebar-container a:hover,
 .sidebar-container a:active {
   color: #0085a1 !important;
+  filter: invert(100%);
 }
 .sidebar-container .tags a {
   border-color: #bfbfbf;
@@ -702,7 +704,33 @@ h6 {
   color:#ffffffff
 }
 h4 {
+  color: rgb(200, 200, 200) !important;
   font-size: 21px;
+}
+.post-container h5{
+  /* background-color:rgb(17, 17, 17); */
+  color: rgb(200, 200, 200) !important;
+
+  /* border-radius: 25px;
+  border: 2px solid #181818;
+  padding: 20px; */
+  /* width: 200px; */
+  /* height: 150px;  */
+}
+li h5{
+  color: rgb(200, 200, 200) !important;
+}
+/* section h5 a{
+  color: rgb(200, 200, 200) !important;
+} */
+hr{
+  border-color: #0085a1;
+  filter: invert(100%);
+}
+code.language-plaintext{
+  color:#0085a1;
+  background-color: rgb(202, 202, 202);
+  filter: invert(100%);
 }
 a {
   color: #404040;
