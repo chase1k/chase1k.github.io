@@ -3,6 +3,9 @@
  * Copyright 2023 Hux <huxpro@gmail.com>
  */
 
+hr {
+  border-color:orange
+}
 @media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
@@ -669,9 +672,11 @@ body {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
 }
 p {
   margin: 30px 0;
+  color:#ffffffff
 }
 @media screen and (max-width: 768px) {
   p {
@@ -692,6 +697,7 @@ h6 {
   line-height: 1.7;
   line-height: 1.1;
   font-weight: bold;
+  color:#ffffffff
 }
 h4 {
   font-size: 21px;
@@ -1453,6 +1459,8 @@ img::-moz-selection {
 }
 .tags {
   margin-bottom: -5px;
+  color: #ffffff;
+  filter: invert(100%);
 }
 .tags.tags-sup a,
 .tags.tags-sup .tag {

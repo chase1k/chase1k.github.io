@@ -3,6 +3,10 @@
  * Copyright 2023 Hux <huxpro@gmail.com>
  */
 
+hr {
+  filter: invert(100%);
+  border-color:#0085a1;
+  }
 @media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
@@ -132,6 +136,7 @@
 .side-catalog .catalog-body .active {
   border-radius: 4px;
   background-color: #f5f5f5;
+  filter: invert(100%);
 }
 .side-catalog .catalog-body .active a {
   color: #0085a1 !important;
@@ -669,9 +674,11 @@ body {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
 }
 p {
   margin: 30px 0;
+  color:#ffffffff
 }
 @media screen and (max-width: 768px) {
   p {
@@ -692,6 +699,7 @@ h6 {
   line-height: 1.7;
   line-height: 1.1;
   font-weight: bold;
+  color:#ffffffff
 }
 h4 {
   font-size: 21px;
@@ -701,7 +709,13 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  /* color: #0085a1; */
+  /* color: #0085a1; */
+  /* filter: invert(100%); */
+}
+li a {
+  /* color: #0085a1; */ */
+  /* filter: invert(100%); */
 }
 a img:hover,
 a img:focus {
@@ -1316,6 +1330,7 @@ samp {
 }
 .post-content-preview:hover {
   color: #0085a1;
+  filter: invert(100%);
 }
 @media only screen and (min-width: 768px) {
   .post-content-preview {
@@ -1453,6 +1468,7 @@ img::-moz-selection {
 }
 .tags {
   margin-bottom: -5px;
+  color: #ffffff;
 }
 .tags.tags-sup a,
 .tags.tags-sup .tag {
@@ -1483,8 +1499,10 @@ img::-moz-selection {
 .tags .tag:active {
   color: white;
   border-color: white;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #0085a1
   text-decoration: none;
+  filter: invert(100%);
+  /* TODO */
 }
 @media only screen and (min-width: 768px) {
   .tags a,
@@ -1522,6 +1540,7 @@ img::-moz-selection {
 #tag_cloud a.focus,
 #tag_cloud .tag.focus {
   background-color: #0085a1 !important;
+  filter: invert(100%);
 }
 #tag_cloud a.focus,
 #tag_cloud .tag.focus {
@@ -1531,6 +1550,7 @@ img::-moz-selection {
 #tag_cloud .tag.tag-button--all {
   font-weight: 700;
   color: #0085a1 !important;
+  /* TODO */
 }
 #tag_cloud a.tag-button--all:hover,
 #tag_cloud .tag.tag-button--all:hover,
