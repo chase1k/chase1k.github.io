@@ -14,9 +14,11 @@
 
 ### Work Experience
 
-- ##### Currently, I am working at [MITRE](https://www.mitre.org/) as Cyber Operations intern0!
+- ##### Summer of 2025, I worked at [MITRE](https://www.mitre.org/) as Cyber Operations intern!
+> Featured on the MITRE ENGENUITY website <strong>[here!](https://mitre-engenuity.org/news-insights/blog/behind-the-attack-chase-killorin/)</strong>
 
-- ##### I have previously worked at [MetaCTF](https://metactf.com/) making CTF challenges as a Security Content Developer!
+
+- ##### Summer of 2024 I worked at [MetaCTF](https://metactf.com/) making CTF challenges as a Security Content Developer!
 
 ---
 

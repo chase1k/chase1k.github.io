@@ -41,7 +41,8 @@ hr {
 }
 .sidebar-container .tags a:hover,
 .sidebar-container .tags a:active {
-  border-color: #0085a1;
+  border-color: #000000;
+  color:#000 !important;
 }
 .sidebar-container .short-about img {
   width: 80%;
@@ -137,7 +138,8 @@ hr {
   background-color: #f5f5f5;
 }
 .side-catalog .catalog-body .active a {
-  color: #0085a1 !important;
+  color: #a11c00 !important;
+  filter: invert(0%) !important;
 }
 @media (max-width: 1200px) {
   .side-catalog {
@@ -672,8 +674,64 @@ body {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #000000;
+  background-color: #0d0d0f;
+  background-image: url("bg.svg");
 }
+div.row:has(.postlist-container, h3) {
+  background-color: #1a1a1a;
+  padding-bottom: 5%;
+  
+  border-color: #0d0d0f;
+  border-width: 2px;
+  border-style: solid;
+}
+header.intro-header, div.header-mask{
+  border-bottom-color: #0d0d0f;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+}
+/* .card{
+  margin: 0 auto;
+  padding: 2em;
+  width: 300px;
+  background: #1c1f2b;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.card::after, .card::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 3px;
+  border-radius: 10px;
+  animation: 3s spin linear infinite;
+}
+.card::before{
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+@keyframes spin{
+  from{
+    --angle: 0deg;
+  }
+  to{
+    --angle: 360deg;
+  }
+} */
 p {
   margin: 30px 0;
   color:#ffffffff
@@ -706,7 +764,7 @@ h4 {
   color:red;
 } */
 a {
-  color: #404040;
+  color: #a11c00;
 }
 a:hover,
 a:focus {
