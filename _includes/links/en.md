@@ -18,7 +18,7 @@
 
 [Google 0-day "In the Wild" Tracker](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/view#gid=0)
 
-# Reverse Enginering
+# Reverse Engineering
 
 [GoReSym](https://github.com/mandiant/GoReSym) 
 
@@ -82,7 +82,7 @@
 
 [Exploit Education](https://exploit.education/)
 
-# Priviledge Escalation
+# Privilege Escalation
 
 [DirtyPipe](https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits)
 
