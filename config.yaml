@@ -17,6 +17,12 @@ menu:
     - name: "<u>L</u>inks"
       url: "https://chasekillorin.com/links"
       weight: 4
+    - name: "<u>G</u>ithub"
+      url: "https://github.com/chase1k"
+      weight: 5
+    - name: "<u>E</u>mail"
+      url: "mailto:chasekillorin@gmail.com"
+      weight: 6
 
 params:
   description: "ChaseK Blog"

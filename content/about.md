@@ -21,7 +21,7 @@ toc: true
     - ##### Featured on the MITRE ENGENUITY website <strong>[here!](https://mitre-engenuity.org/news-insights/blog/behind-the-attack-chase-killorin/)</strong>
 
 
-- ##### Summer of 2023 I worked at [MetaCTF](https://metactf.com/) making CTF challenges as a Security Content Developer!
+- #### Summer of 2023 I worked at [MetaCTF](https://metactf.com/) making CTF challenges as a Security Content Developer!
 
 ---
 
