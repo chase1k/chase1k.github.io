@@ -9,8 +9,6 @@ toc: true
 bold: true
 ---
 
-# The Andro Experiment
-
 Hello! I made this Android RE CTF challenge you can find [here](https://github.com/chase1k/The_Andro_Experiment) on my github.
 
 I highly suggest hosting the challenge and solving it yourself first, and/or following along with this.

@@ -7,9 +7,15 @@ menu:
     - name: "<u>H</u>ome"
       url: /
       weight: 1
+    - name: "<u>A</u>bout"
+      url: "https://chasekillorin.com/about"
+      weight: 2
     - name: "<u>T</u>ags"
       url: "https://chasekillorin.com/tags"
       weight: 3
+    - name: "<u>L</u>inks"
+      url: "https://chasekillorin.com/links"
+      weight: 4
 
 params:
   description: "ChaseK Blog"
