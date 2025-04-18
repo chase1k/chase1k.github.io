@@ -2,6 +2,7 @@ baseURL: "https://chasekillorin.com/"
 languageCode: en-us
 title: "chasek blog"
 enableGitInfo: true
+publishDir: "docs"
 menu:
   main:
     - name: "<u>H</u>ome"
