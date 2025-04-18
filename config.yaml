@@ -1,0 +1,50 @@
+baseURL: "https://chasekillorin.com/"
+languageCode: en-us
+title: "chasek blog"
+enableGitInfo: true
+menu:
+  main:
+    - name: "<u>H</u>ome"
+      url: /
+      weight: 1
+    - name: "<u>T</u>ags"
+      url: "https://chasekillorin.com/tags"
+      weight: 3
+
+params:
+  description: "ChaseK Blog"
+  noSearch: false
+
+markup:
+  highlight:
+    codeFences: true
+    style: bw
+    lineNumbersInTable: false
+    noClasses: false
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+        enable: true
+    renderer:
+      unsafe: true
+
+outputs:
+  home:
+    - html
+    - rss
+    - json
+  page:
+    - html
+
+module:
+  imports:
+    - path: github.com/barklan/hugo-dead-simple
