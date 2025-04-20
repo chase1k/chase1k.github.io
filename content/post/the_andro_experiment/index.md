@@ -37,9 +37,9 @@ From either of the download links you can download `Andro.apk`. There is also, t
 
 This number not incrementing by the website is a hint towards something the app is doing that allows that number to increment.
 
-## What you're supposed to do
+## The Process
 
-### `Running The App`
+### Running The App
 
 Right off the bat I would throw this in an emulator or push it onto an actual device if you have one.
 
@@ -70,7 +70,7 @@ You may receive an error message when running this or starting the app, if so, t
 
 This is all the real functionality of the app, but this will give context to the functionality of the app we see later.
 
-### `Reversing The App`
+### Reversing The App
 
 Opening `Andro.apk` in [Jadx](https://github.com/skylot/jadx) shows us a lot...
 
@@ -131,7 +131,7 @@ Otherwise, on start, we generate our seed with `generateSeed()` and then run `pe
 
 Then we simply wait for the button to be clicked. If clicked, the seed value is logged, then we run the `rollcode()` function using that original seed. Then that seed is sent to the server with `sendBytesToServer()`.
 
-### `performGetRequest()`
+### performGetRequest()
 
 ``` java {linenos=inline,linenostart=1}
 private void performGetRequest() {
@@ -150,7 +150,7 @@ This function sends the seed, with the prefix of `SEED:` to the `sendBytesToServ
 
 All the loops just convert the strings to bytes, otherwise, let's see what happens to the result after it's sent.
 
-### `sendBytesToServer()`
+### sendBytesToServer()
 ``` java {linenos=inline,linenostart=1}
 public void sendBytesToServer(final byte[] code) {
         this.executor.execute(new Runnable() { // from class: com.example.andro.MainActivity.2
@@ -205,7 +205,7 @@ Both we saw before when we ran the app.
 
 Otherwise, we catch any errors and clean up.
 
-### `Reversing the Library`
+### Reversing the Library
 
 If you remember the app imported some libraries and got the functions `generateSeed()` and `rollCode()` within the Java part of the app. Let's dig into those.
 
