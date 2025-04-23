@@ -17,7 +17,7 @@ toc: true
 
 - #### Summer of 2025 I will be working at [RII](https://www.researchinnovations.com/) as a Vulnerability Research intern! 
 
-- #### Summer of 2024, I worked at [MITRE](https://www.mitre.org/) as Cyber Operations intern!
+- #### Summer of 2024, I worked at [MITRE](https://www.mitre.org/) as a Cyber Operations intern!
     - ##### Featured on the MITRE ENGENUITY website <strong>[here!](https://mitre-engenuity.org/news-insights/blog/behind-the-attack-chase-killorin/)</strong>
 
 

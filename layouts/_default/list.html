@@ -1,22 +1,32 @@
 {{ partial "header.html" . }}
 
-<div class="home-content">{{ .Content }}</div>
-
 {{ if .IsHome }}
-    <!--TODO: replace with faster search-->
-    {{ if not .Site.Params.noSearch }}
+
+  <div style="display: flex;flex-direction: row;align-items: flex-start;justify-content: space-between;gap: 2rem;flex-wrap: wrap;margin-bottom: 2rem;">
+    <div style="flex: 1 1 60%;">
+      <div class="home-content">{{ .Content }}</div>
+      {{ if not .Site.Params.noSearch }}
         {{ partial "search-form.html" . }}
         <ul id="results"></ul>
-    {{ end }}
+      {{ end }}
 
-    {{ range .Sections }}
+      {{ range .Sections }}
         <h2 class="section-title">{{ .CurrentSection.Title }}</h2>
         {{ .CurrentSection.Content }}
         {{ partial "post_list.html" . }}
-    {{ end }}
-{{ else }}
-    <h2 class="section-title">{{ .CurrentSection.Title }}</h2>
-    {{ partial "post_list.html" . }}
+      {{ end }}
+    </div>
+
+    <div style="flex: 1 1 35%; text-align: center;">
+      <img src="/img/macroblank_robopeace.png" alt="macroblank album art" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;"/>
+    </div>
+
+  </div>
+{{ end }}
+
+{{ if not .IsHome }}
+  <h2 class="section-title">{{ .CurrentSection.Title }}</h2>
+  {{ partial "post_list.html" . }}
 {{ end }}
 
 {{ partial "footer.html" . }}
